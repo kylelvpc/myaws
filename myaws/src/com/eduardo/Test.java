@@ -21,6 +21,7 @@ public class Test{
         String key_name="haidingqu/xierqi/aws-sysops.pdf";
         //本地文件路径
         String file_path="C:/Users/patpat/Downloads/aws-sysops.pdf";
+        //This is test
     	
        // @SuppressWarnings("deprecation")
 		final AmazonS3 s3 = new AmazonS3Client();

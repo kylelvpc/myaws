@@ -38,12 +38,12 @@ public class ShortMessage {  // 发送短信息的类
         AWSCredentials awsCredentials = new AWSCredentials() {
             @Override
             public String getAWSAccessKeyId() {
-                return "AKIAJSP2U45KV5QSZC2Q"; // 带有发短信权限的 IAM 的 ACCESS_KEY
+                return "xxxxxxxxxxxxxxxxxxxxxxxxx"; // 带有发短信权限的 IAM 的 ACCESS_KEY
             }
  
             @Override
             public String getAWSSecretKey() {
-                return "xG6m/sMual8whTzqv1u+5ShUfTE9YZ6jgCbcPF58"; // 带有发短信权限的 IAM 的 SECRET_KEY
+                return "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"; // 带有发短信权限的 IAM 的 SECRET_KEY
             }
         };
         AWSCredentialsProvider provider = new AWSCredentialsProvider() {
