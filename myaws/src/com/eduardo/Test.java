@@ -18,9 +18,9 @@ public class Test{
     	//存储桶的名字
         String bucket_name="testkyle1";
         //自定义上传到bucket后的目录结构
-        String key_name="haidingqu/xierqi/aws-sysops.pdf";
+        String key_name="aws-sysops.pdf";
         //本地文件路径
-        String file_path="C:/Users/patpat/Downloads/aws-sysops.pdf";
+        String file_path="aws-sysops.pdf";
         //This is test
     	
        // @SuppressWarnings("deprecation")
